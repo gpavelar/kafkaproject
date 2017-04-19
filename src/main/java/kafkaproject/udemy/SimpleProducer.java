@@ -2,14 +2,12 @@
 package kafkaproject.udemy;
 
 // Java Util
-
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.Producer;
-import org.apache.kafka.clients.producer.ProducerRecord;
-
 import java.util.Properties;
 
 // Imports from Kafka
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
 
 public class SimpleProducer {
 
